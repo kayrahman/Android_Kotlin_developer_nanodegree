@@ -78,3 +78,25 @@ invalidateAll()
 
 
 
+### ViewModel
+
+
+To initialize viewModel Fragment use this<br>
+ viewModel = ViewModelProvider(this.activity!!).get(ShoeViewModel::class.java)
+ * this.getAcitvity() argumentin ViewModelProvider is important. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
